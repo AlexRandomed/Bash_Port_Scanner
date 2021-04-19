@@ -6,8 +6,7 @@ BLUE=`tput setaf 87`
 RED=`tput setaf 1`
 port_number=$2
 
-function tcpscan()
-
+function scanner()
 {
         GREEN=`tput setaf 10`
         BLUE=`tput setaf 87`
@@ -21,5 +20,5 @@ function tcpscan()
 }
 clear
 echo "${RED}[!] Scanning of $ip in progress..."
-tcpscan $ip $port_number
+scanner $ip $port_number
 echo "${BLUE}[-] Scan finished ! : $port ports scanned"
