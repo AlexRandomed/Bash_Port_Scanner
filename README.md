@@ -7,8 +7,10 @@ export ip=yourip; for port in $(seq 1 65535); do timeout 0.01 bash -c "</dev/tcp
 ### For the file :
 
 ```
-bash scanner.sh ip number_of_ports.
-Example : bash scanner.sh 192.168.1.1 1024
+bash scanner.sh IP number_of_ports
+
+Example : 
+bash scanner.sh 192.168.1.1 1024
 ```
 
 
