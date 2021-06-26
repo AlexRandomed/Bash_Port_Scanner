@@ -25,7 +25,3 @@ Precision is set to 0.05
 [+] Port 443 is open
 [-] Scan finished ! : 555 ports scanned
 ```
-
-
-
-PS : Thanks to Brain 0veridde for the idea and a part of the script
