@@ -18,7 +18,7 @@ function scanner()
                 timeout 0.01 bash -c "</dev/tcp/$ip/$port && echo ${GREEN}[+] Port $port is open || echo Port $port is closed > /dev/null" 2>/dev/null || echo Connection timeout > /dev/null
         done
 }
-clear
+
 echo "${RED}[!] Scanning of $ip in progress..."
 scanner $ip $port_number
 echo "${BLUE}[-] Scan finished ! : $port ports scanned"
