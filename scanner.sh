@@ -13,7 +13,7 @@ function scan()
         port_number=$2
         ip=$1
 
-        for port in {1..$port_number};
+        for port in $(seq 1 $port_number);
         do
                 timeout 0.01 bash -c "</dev/tcp/$ip/$port && echo ${GREEN}[+] Port $port is open || echo Port $port is closed > /dev/null" 2>/dev/null
         done
