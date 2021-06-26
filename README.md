@@ -11,7 +11,12 @@ wget https://raw.githubusercontent.com/AlexRandomed/One-Liner-Bash-Scanner/main/
 bash scanner.sh IP number_of_ports
 
 Example : 
-bash scanner.sh 192.168.1.1 1024
+$ ./scanner.sh 192.168.1.254 555
+[!] Scanning of 192.168.1.254 in progress...
+[+] Port 53 is open
+[+] Port 80 is open
+[+] Port 443 is open
+[-] Scan finished ! : 555 ports scanned
 ```
 
 
