@@ -7,7 +7,7 @@ export ip=yourip; for port in $(seq 1 65535); do timeout 0.01 bash -c "</dev/tcp
 # Using the file :
 
 ``` 
-wget https://raw.githubusercontent.com/AlexRandomed/One-Liner-Bash-Scanner/main/scanner.sh -O ./scanner.sh; chmod +x scanner.sh
+wget https://raw.githubusercontent.com/AlexRandomed/Bash_Port_Scanner/main/scanner.sh -O ./scanner.sh; chmod +x scanner.sh
 ```
 ### Usage:
 
